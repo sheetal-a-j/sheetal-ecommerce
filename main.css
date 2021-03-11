@@ -185,7 +185,13 @@ single-item:hover:before, single-item:focus:before ,single-item-active-before{
 .item-title{
     color: black;
 }
+/* end of item styling */
 
+@media screen and (max-width: 790px){
+.product-title{
+    font-size: 1.4rem;
+}
+}
 
 
 

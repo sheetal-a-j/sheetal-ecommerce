@@ -1,0 +1,193 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/* styling navbar beigns */
+
+.bg-dark{
+    background-color: #4e0438c0 !important;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 28px;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.navbar-dark .navbar-nav .nav-item{
+    margin-left:1rem;
+}
+.cart{
+    color: white;
+}
+/* end of navbar styling */
+
+/* begining of products styling */
+
+#products{
+    background:gray;
+}
+.product-title{
+    color: white;
+    border-bottom: 5px double black;
+}
+
+.single-item{
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgb(247 241 241);
+    position: relative;
+    transition-duration: 0.3sec;
+    transition-property: transform;
+    cursor:pointer;
+}
+.single-item:before{
+    position: absolute;
+    z-index: -1;
+    content:"";
+    top:100%;
+    width:90%;
+    opacity:0;
+    background:
+    radial-gradient(ellipse at center, rgb(248,248,248,0.35)0%,
+    rgb(247,244,244,0)80%);
+    transition-duration:0.35;
+    transition-property:transform,opacity;
+    pointer-events: none;
+
+}
+.single-item:hover, .single-item:focus, .single-item:active{
+    transform: translateY(-5px);
+
+}
+
+single-item:hover:before, single-item:focus:before ,single-item-active-before{
+    opacity:1;
+    transform: translateY(5px);
+}
+   
+.img-container{
+    position:relative;
+    overflow:hidden;
+    cursor:pointer;
+}
+.img-container{
+    display:inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgb(0 0,0,0);
+    transition-duration: 0.3s;
+    transition-property: box-shadow,transform;
+}
+  
+.img-container:hover, .product-img:focus, .product-img:active{
+    box-shadow: 1px 0px 1px 4px rgb(247,243,243,0.9);
+    transform:scale(1.1);
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 0.5rem;
+    color: white;
+    background-color: #4e0438c0;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+}
+  
+.card button:hover {
+    opacity: 0.7;
+}
+.card-body:nth-child(n-2){
+    color:  #4e0438c0;
+}
+.card-body h5{
+    font-size: small;
+}
+.card-body span{
+    font-size: small;
+}
+
+.card-body p{
+    font-size: small;
+}
+
+  /* end of product styling */
+
+  /* about section */
+#about-sec{
+    margin-top:25px;
+
+}
+
+.text-color{
+    color: black;
+}
+.jewel-img{
+    margin-top: 35px;
+}
+   
+
+.abt-text p{
+    text-align: justify;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 1.2rem;
+}
+   
+  /* end of about */
+
+  /* footer section */
+.footer{
+    background-color:gray;
+    color:white;
+
+}
+
+.fa{
+       padding-left: 10px;
+   }
+  /* end of footer */
+
+  /* item styling */
+  
+.newarrival{
+    background: green;
+    width:50px;
+    color: white;
+    ont-size: 12px;
+    ont-weight: bold;
+}
+.col-lg-7 h2{
+    color:#555;
+    font-size: 2rem;
+}
+
+.price{
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 20px;
+    color: #ee980f;
+}
+.cart-btn{
+    color:#FFFFFF;
+    font-size: 15px;
+    margin-top:20px;
+    background: #4e0438c0;
+}
+.item-title{
+    color: black;
+}
+
+
+
+
+
+   

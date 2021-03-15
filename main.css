@@ -6,7 +6,7 @@
 /* styling navbar beigns */
 
 .bg-dark{
-    background-color: #4e0438c0 !important;
+    background-color:#4e0438c0!important;
 }
 .navbar-brand{
     font-weight: bold;
@@ -162,8 +162,8 @@ single-item:hover:before, single-item:focus:before ,single-item-active-before{
     background: green;
     width:50px;
     color: white;
-    ont-size: 12px;
-    ont-weight: bold;
+    font-size: 12px;
+    font-weight: bold;
 }
 .col-lg-7 h2{
     color:#555;
